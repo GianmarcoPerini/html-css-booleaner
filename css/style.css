@@ -33,6 +33,7 @@ header{
 .logo{
     width: 350px;
 }
+
 .logo img{
     margin: 100px 20px
 }
@@ -40,9 +41,11 @@ header{
 .titolo h1{
     margin: 10px 0 10px;
 }
+
 .titolo p{
     color: rgb(156, 156, 156);
 }
+
 .titolo span{
     color: rgb(89, 194, 255);
 }
@@ -51,6 +54,7 @@ header{
     width: 100%;
     margin: 20px 0 20px;
 }
+
 .tim-img img{
     width: 49%
 }
@@ -78,9 +82,11 @@ tr th{
     text-align: left;
     font-size: 1.26rem
 }
+
 .m1{
     width: 60%;
 }
+
 .blu{
     background-color: rgb(221, 239, 250)
 }
@@ -113,6 +119,7 @@ footer h3{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .img2{
     background-image: url(../img/monitor.jpg);
     background-size: cover;
