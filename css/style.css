@@ -15,3 +15,31 @@ header{
 .logo img{
     margin: 100px 20px
 }
+
+.titolo p{
+    color: grey;
+    margin: 10px;
+}
+.titolo span{
+    color: blue
+}
+.titolo h1{
+    margin: 10px;
+}
+
+.tim-img{
+    width: 100%;
+    margin: 20px 10px
+}
+
+#second span{
+    background-color: yellow
+}
+#second p{
+    margin-left: 10px
+}
+
+ul{
+    text-align: left;
+    margin: 10px 0
+}
