@@ -1,6 +1,27 @@
 *{
     margin: 0%;
+    box-sizing: border-box
 }
+
+/* ======================
+    GENERAL RULES
+====================== */
+
+header, main, footer{
+    margin-left: 10px;
+}
+
+section{
+    width: 90%;
+}
+
+/* ======================
+    GENERAL RULES
+====================== */
+
+/* ======================
+        HEADER
+====================== */
 
 header{
     width: 100%;
@@ -16,30 +37,76 @@ header{
     margin: 100px 20px
 }
 
+.titolo h1{
+    margin: 10px 0 10px;
+}
 .titolo p{
-    color: grey;
-    margin: 10px;
+    color: rgb(156, 156, 156);
 }
 .titolo span{
-    color: blue
-}
-.titolo h1{
-    margin: 10px;
+    color: rgb(89, 194, 255);
 }
 
 .tim-img{
     width: 100%;
-    margin: 20px 10px
+    margin: 20px 0 20px
 }
+
+/* ======================
+        HEADER
+====================== */
+
+/* ======================
+        SECOND
+====================== */
+
 
 #second span{
-    background-color: yellow
-}
-#second p{
-    margin-left: 10px
+    background-color: yellow;
 }
 
-ul{
-    text-align: left;
-    margin: 10px 0
+ul, table, #second p{
+
+    margin: 40px 0 40px;
 }
+
+tr th{
+    width: 20%;
+    background-color: rgb(89, 194, 255);
+    color: white;
+    text-align: left;
+    font-size: 1.26rem
+}
+.m1{
+    width: 60%;
+}
+.blu{
+    background-color: rgb(221, 239, 250)
+}
+
+/* ======================
+        SECOND
+====================== */
+
+/* ======================
+        FOOTER
+====================== */
+
+footer h3{
+    color: rgb(156, 156, 156);
+}
+
+/* ======================
+        FOOTER
+====================== */
+
+
+
+
+
+
+
+
+
+
+
