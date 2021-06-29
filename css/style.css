@@ -8,12 +8,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-main, footer{
-    margin-left: 10px;
-}
-
 section{
     width: 90%;
+    margin: auto
 }
 
 /* ======================
@@ -25,7 +22,6 @@ section{
 ====================== */
 
 header{
-    width: 100%;
     background-image: url("../img/pattern.png");
     background-color: rgb(89, 194, 255)
 }
@@ -38,8 +34,16 @@ header{
     margin-top: 100px 
 }
 
+/* ======================
+        HEADER
+====================== */
+
+/* ======================
+        FIRST
+====================== */
+
 .titolo h1{
-    margin: 10px 0 10px;
+    margin: 60px 0 10px;
 }
 
 .titolo p{
@@ -52,11 +56,11 @@ header{
 
 .tim-img{
     width: 100%;
-    margin: 20px 0 20px;
+    margin: 20px 0 20px 0;
 }
 
 .tim-img img{
-    width: 49%
+    width: calc(100% / 2 - 2px)
 }
 
 .tim-img p{
@@ -64,7 +68,7 @@ header{
 }
 
 /* ======================
-        HEADER
+        FIRST
 ====================== */
 
 /* ======================
@@ -138,14 +142,3 @@ footer h3{
 /* ======================
         FOOTER
 ====================== */
-
-
-
-
-
-
-
-
-
-
-
